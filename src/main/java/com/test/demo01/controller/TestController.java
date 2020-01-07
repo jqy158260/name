@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class TestController {
 
+    private String vue;
+
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
     public String test02() {
         return "/Hello";
